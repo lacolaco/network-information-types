@@ -9,7 +9,8 @@
   "scripts": {
     "build": "pack build",
     "test": "tsc -p tsconfig.spec.json",
-    "preversion": "yarn build"
+    "preversion": "yarn test",
+    "postversion": "yarn build"
   },
   "@pika/pack": {
     "pipeline": [
