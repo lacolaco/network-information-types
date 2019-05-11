@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "lib": ["dom"]
+  },
+  "files": ["index.d.ts"]
+}
