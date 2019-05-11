@@ -1,10 +1,10 @@
 // Example: http://wicg.github.io/netinfo/#example-1
 if (navigator.connection) {
   // Get the connection type.
-  const type = navigator.connection.type;
+  const type: ConnectionType = navigator.connection.type;
 
   // Get an upper bound on the downlink speed of the first network hop
-  var max = navigator.connection.downlinkMax;
+  const max = navigator.connection.downlinkMax;
 
   const changeHandler = (e: Event) => {
     // Handle change to connection here.
