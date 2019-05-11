@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "lib": ["dom"]
+    "lib": ["es2015", "dom", "webworker"]
   },
-  "files": ["index.d.ts"]
+  "files": ["index.d.ts", "test.ts"]
 }

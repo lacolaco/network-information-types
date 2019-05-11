@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "build": "pack build",
-    "test": "tsc -p tsconfig.spec.json"
+    "test": "tsc -p tsconfig.spec.json",
+    "preversion": "yarn build"
   },
   "@pika/pack": {
     "pipeline": [

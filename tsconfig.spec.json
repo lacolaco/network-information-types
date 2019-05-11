@@ -1,7 +1,10 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "lib": ["es2015", "dom"],
     "noEmit": true,
-    "strict": true
-  }
+    "strict": true,
+    "types": ["./pkg"]
+  },
+  "files": ["test.ts"]
 }
