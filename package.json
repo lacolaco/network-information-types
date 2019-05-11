@@ -2,6 +2,7 @@
   "name": "network-information-types",
   "version": "0.1.0",
   "description": "Type definitions for Network Information API",
+  "keywords": ["TypeScript", "types", "netinfo", "Network Information"],
   "types": "index.d.ts",
   "repository": "git@github.com:lacolaco/network-information-types.git",
   "author": "Suguru Inatomi <suguru.inatomi@gmail.com>",
