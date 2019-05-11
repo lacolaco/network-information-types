@@ -1,6 +1,6 @@
 {
   "name": "network-information-types",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Type definitions for Network Information API",
   "types": "index.d.ts",
   "repository": "git@github.com:lacolaco/network-information-types.git",
@@ -13,7 +13,9 @@
   },
   "@pika/pack": {
     "pipeline": [
-      ["@pika/plugin-build-types"]
+      [
+        "@pika/plugin-build-types"
+      ]
     ]
   },
   "peerDependencies": {
