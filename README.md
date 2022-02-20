@@ -1,5 +1,11 @@
 # network-information-types
 
+## No Longer Maintained
+
+TypeScript supports Network Information API natively since version 4.4. Just use `dom` or `worker` library. 
+
+---
+
 [![npm version](https://badge.fury.io/js/network-information-types.svg)](https://badge.fury.io/js/network-information-types)
 
 Type definition for [Network Information API](https://developer.mozilla.org/en-US/docs/Web/API/Network_Information_API)
